@@ -46,8 +46,6 @@ public let VoiceRoomApplySite = "chatroom_applySiteNotify"
         let options = AgoraChatOptions(appkey: appkey.isEmpty ? "easemob-demo#easeim":appkey)
         options.enableConsoleLog = true
         options.isAutoLogin = true
-        options.pushKitCertName = "com.easemob.enterprise.demo.ui.voip"
-        options.apnsCertName = "ChatDemoDevPush"
         options.setValue(false, forKeyPath: "enableDnsConfig")
         options.setValue(6717, forKeyPath: "chatPort")
         options.setValue("52.80.99.104:6717", forKeyPath: "chatServer")
@@ -124,6 +122,14 @@ public extension VoiceRoomIMManager {
             if let roomId = aChatroom.chatroomId,roomId == self.currentRoomId  {
                 self.delegate?.userBeKicked(roomId: roomId, reason: aReason)
             }
+        }
+        switch aReason {
+        case .beRemoved,.destroyed:
+            AgoraChatClient.shared().roomManager?.remove(self)
+            AgoraChatClient.shared().chatManager?.remove(self)
+            self.currentRoomId = ""
+        default:
+            break
         }
     }
     
