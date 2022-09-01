@@ -1,0 +1,6 @@
+framework module VoiceRoomIMKit {
+  umbrella header "VoiceRoomIMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

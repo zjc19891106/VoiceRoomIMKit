@@ -1,0 +1,35 @@
+{
+  "name": "VoiceRoomIMKit",
+  "version": "0.1.0",
+  "summary": "A short description of VoiceRoomIMKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zjc19891106/VoiceRoomIMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zjc19891106": "984065974@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zjc19891106/VoiceRoomIMKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "VoiceRoomIMKit/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "Agora_Chat_iOS": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "VALID_ARCHS": "arm64 armv7 x86_64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}
