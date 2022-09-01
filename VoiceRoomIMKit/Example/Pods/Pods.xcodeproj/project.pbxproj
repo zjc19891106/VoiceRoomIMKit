@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7A09EB58FA8B110D768DBACB9890287E /* Agora_Chat_iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1E59D657B7A27C7F65C9A418D8B9EB46 /* Build configuration list for PBXAggregateTarget "Agora_Chat_iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Agora_Chat_iOS;
+			productName = Agora_Chat_iOS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		057DE6DA28C07D6A00A30ED5 /* VoiceRoomIMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057DE6D928C07D6A00A30ED5 /* VoiceRoomIMManager.swift */; };
+		3E4C4188160A0317D6385EC5092F3B8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3F9A5BFAE89180B6CA965DACED557B32 /* Pods-VoiceRoomIMKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C26FB690D3CF1F96692435F1346106C8 /* Pods-VoiceRoomIMKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		600E69326CE257A73596833E0DD3E944 /* Pods-VoiceRoomIMKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D410857C2F6BA777E0377D5AAF0E10 /* Pods-VoiceRoomIMKit_Tests-dummy.m */; };
+		8A9F81262B9D8468F4A0E7AB004BDBC7 /* VoiceRoomIMKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDCAD477E1B45544EF868B688A3DC81 /* VoiceRoomIMKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F3374D30D9C7CACF907B395547A9D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AAEC2CD7ABA993AA11285CD00AF5BAC6 /* VoiceRoomIMKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9601924535A390579F5B5D9844471E /* VoiceRoomIMKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8814875025CE63440FCA61C4C3A906E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BB4B21AA966E7A727C8F273106B610;
+			remoteInfo = VoiceRoomIMKit;
+		};
+		A059AD241E590462EB871EAE23E99DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A09EB58FA8B110D768DBACB9890287E;
+			remoteInfo = Agora_Chat_iOS;
+		};
+		A12D904E0F85AF4AF963A138AADCA7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A09EB58FA8B110D768DBACB9890287E;
+			remoteInfo = Agora_Chat_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057DE6D928C07D6A00A30ED5 /* VoiceRoomIMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomIMManager.swift; sourceTree = "<group>"; };
+		0F165377A482CC29750A80757304F675 /* VoiceRoomIMKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VoiceRoomIMKit.modulemap; sourceTree = "<group>"; };
+		17C4D5E7C2FE826749993052C2EC7D8F /* VoiceRoomIMKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VoiceRoomIMKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A18EE193FACDC04DE776059F8BFBF59 /* Pods-VoiceRoomIMKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceRoomIMKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		219FE387043080C46AE3B5D2F17D21E9 /* Pods-VoiceRoomIMKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomIMKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		27377D50736C2F34ED934EA31599D30F /* AgoraChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraChat.framework; sourceTree = "<group>"; };
+		3D972C9E487CB46FAE81933EFFD25376 /* Pods_VoiceRoomIMKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceRoomIMKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4373A3C7C6DEFDBD056F800F53498068 /* Agora_Chat_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Agora_Chat_iOS.release.xcconfig; sourceTree = "<group>"; };
+		4915C727404581BCC9821261BCE89948 /* Pods-VoiceRoomIMKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomIMKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BFEB16126DDAE17E2DAF8B58D654A08 /* Pods-VoiceRoomIMKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRoomIMKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CA503C95CA0C00CD28D5770A6643D65 /* Agora_Chat_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Agora_Chat_iOS.debug.xcconfig; sourceTree = "<group>"; };
+		6F78FC3AAFBB202B856C4E0D73FD2557 /* VoiceRoomIMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomIMKit.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FDCAD477E1B45544EF868B688A3DC81 /* VoiceRoomIMKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomIMKit-umbrella.h"; sourceTree = "<group>"; };
+		7FFA3ADD2885119D5F6A6AEC0087477E /* VoiceRoomIMKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomIMKit-prefix.pch"; sourceTree = "<group>"; };
+		884E4B8FB8FD2714527C521C6DFE4EB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D59C57FE955218BADCD707170DBCF11 /* Pods-VoiceRoomIMKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRoomIMKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9793295FA25783CB1F184F41638333E9 /* VoiceRoomIMKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VoiceRoomIMKit; path = VoiceRoomIMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9601924535A390579F5B5D9844471E /* VoiceRoomIMKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VoiceRoomIMKit-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2D410857C2F6BA777E0377D5AAF0E10 /* Pods-VoiceRoomIMKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRoomIMKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		C26FB690D3CF1F96692435F1346106C8 /* Pods-VoiceRoomIMKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceRoomIMKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CB99978F48E5A4F4561C6D46E0783C0E /* VoiceRoomIMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomIMKit.release.xcconfig; sourceTree = "<group>"; };
+		CD1F8FF24B1AE26D076D307B30A5170C /* Pods-VoiceRoomIMKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoiceRoomIMKit_Tests.modulemap"; sourceTree = "<group>"; };
+		D957D7FF0257CAB6385ED1BA48921905 /* Pods-VoiceRoomIMKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceRoomIMKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EC3F79259B660EE337809A3C2FB9455E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F135731AC4C138E53956711028B6B015 /* VoiceRoomIMKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VoiceRoomIMKit-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C0B6746193C36F4369043095DA9911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F3374D30D9C7CACF907B395547A9D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6161192DCF5CEEE514AECBC1FD8F086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C4188160A0317D6385EC5092F3B8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E0282B8A57BE61D2327D188D4A77573 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68D6D797FE145DD4D1D5D17E33A52F36 /* Pods-VoiceRoomIMKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55BD568ADA29ADCD21AC31EE2C1A34AC /* Agora_Chat_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE7AF8D1EFE1206F730ECE1B8B418081 /* Frameworks */,
+				873E26D1B18AF65D617798F034DE038C /* Support Files */,
+			);
+			path = Agora_Chat_iOS;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68D6D797FE145DD4D1D5D17E33A52F36 /* Pods-VoiceRoomIMKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1F8FF24B1AE26D076D307B30A5170C /* Pods-VoiceRoomIMKit_Tests.modulemap */,
+				1A18EE193FACDC04DE776059F8BFBF59 /* Pods-VoiceRoomIMKit_Tests-acknowledgements.markdown */,
+				4915C727404581BCC9821261BCE89948 /* Pods-VoiceRoomIMKit_Tests-acknowledgements.plist */,
+				B2D410857C2F6BA777E0377D5AAF0E10 /* Pods-VoiceRoomIMKit_Tests-dummy.m */,
+				D957D7FF0257CAB6385ED1BA48921905 /* Pods-VoiceRoomIMKit_Tests-frameworks.sh */,
+				219FE387043080C46AE3B5D2F17D21E9 /* Pods-VoiceRoomIMKit_Tests-Info.plist */,
+				C26FB690D3CF1F96692435F1346106C8 /* Pods-VoiceRoomIMKit_Tests-umbrella.h */,
+				4BFEB16126DDAE17E2DAF8B58D654A08 /* Pods-VoiceRoomIMKit_Tests.debug.xcconfig */,
+				8D59C57FE955218BADCD707170DBCF11 /* Pods-VoiceRoomIMKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-VoiceRoomIMKit_Tests";
+			path = "Target Support Files/Pods-VoiceRoomIMKit_Tests";
+			sourceTree = "<group>";
+		};
+		873E26D1B18AF65D617798F034DE038C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA503C95CA0C00CD28D5770A6643D65 /* Agora_Chat_iOS.debug.xcconfig */,
+				4373A3C7C6DEFDBD056F800F53498068 /* Agora_Chat_iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Agora_Chat_iOS";
+			sourceTree = "<group>";
+		};
+		9589BF08DC5F555A8936F93D1E4DF5D8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2D3A612430406EE0046F3024C403CAB /* VoiceRoomIMKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		973802183C3775BCB0FB2EDA8A7292BD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F79259B660EE337809A3C2FB9455E /* LICENSE */,
+				884E4B8FB8FD2714527C521C6DFE4EB3 /* README.md */,
+				17C4D5E7C2FE826749993052C2EC7D8F /* VoiceRoomIMKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A2D3A612430406EE0046F3024C403CAB /* VoiceRoomIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				973802183C3775BCB0FB2EDA8A7292BD /* Pod */,
+				AE5B5330CB5CD039868DAE5773A0E9DE /* Support Files */,
+				057DE6D928C07D6A00A30ED5 /* VoiceRoomIMManager.swift */,
+			);
+			name = VoiceRoomIMKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AE5B5330CB5CD039868DAE5773A0E9DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F165377A482CC29750A80757304F675 /* VoiceRoomIMKit.modulemap */,
+				9A9601924535A390579F5B5D9844471E /* VoiceRoomIMKit-dummy.m */,
+				F135731AC4C138E53956711028B6B015 /* VoiceRoomIMKit-Info.plist */,
+				7FFA3ADD2885119D5F6A6AEC0087477E /* VoiceRoomIMKit-prefix.pch */,
+				7FDCAD477E1B45544EF868B688A3DC81 /* VoiceRoomIMKit-umbrella.h */,
+				6F78FC3AAFBB202B856C4E0D73FD2557 /* VoiceRoomIMKit.debug.xcconfig */,
+				CB99978F48E5A4F4561C6D46E0783C0E /* VoiceRoomIMKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VoiceRoomIMKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9589BF08DC5F555A8936F93D1E4DF5D8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D7358EC4EB6C7D328CBCC7D8FCA1E9B2 /* Pods */,
+				DE635D0457B751EB4286908007ECE254 /* Products */,
+				1E0282B8A57BE61D2327D188D4A77573 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7358EC4EB6C7D328CBCC7D8FCA1E9B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55BD568ADA29ADCD21AC31EE2C1A34AC /* Agora_Chat_iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE635D0457B751EB4286908007ECE254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D972C9E487CB46FAE81933EFFD25376 /* Pods_VoiceRoomIMKit_Tests.framework */,
+				9793295FA25783CB1F184F41638333E9 /* VoiceRoomIMKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE7AF8D1EFE1206F730ECE1B8B418081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27377D50736C2F34ED934EA31599D30F /* AgoraChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		107DFDF67A562EF2495B502ADC32A716 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9F81262B9D8468F4A0E7AB004BDBC7 /* VoiceRoomIMKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D628BBD6D78E4A5E4D0653BD20C1174 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9A5BFAE89180B6CA965DACED557B32 /* Pods-VoiceRoomIMKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C8C1254E5215177A7546E5D20EBFBAB /* Pods-VoiceRoomIMKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE80C10750AE3605C12EA3D2EEC1AC8 /* Build configuration list for PBXNativeTarget "Pods-VoiceRoomIMKit_Tests" */;
+			buildPhases = (
+				9D628BBD6D78E4A5E4D0653BD20C1174 /* Headers */,
+				18E794B1434514CE1E9F72B5B2DF208A /* Sources */,
+				B6161192DCF5CEEE514AECBC1FD8F086 /* Frameworks */,
+				A45C545F5C7CD2A0427CCA36EA8C8792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E0C992A6018AA6D1D8CD5CEBE9C25E7 /* PBXTargetDependency */,
+				8A3C8574C1AF5FF7AF4DE5C394FDED5C /* PBXTargetDependency */,
+			);
+			name = "Pods-VoiceRoomIMKit_Tests";
+			productName = Pods_VoiceRoomIMKit_Tests;
+			productReference = 3D972C9E487CB46FAE81933EFFD25376 /* Pods_VoiceRoomIMKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0BB4B21AA966E7A727C8F273106B610 /* VoiceRoomIMKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F2DCA281413C929E51FE4816532C2 /* Build configuration list for PBXNativeTarget "VoiceRoomIMKit" */;
+			buildPhases = (
+				107DFDF67A562EF2495B502ADC32A716 /* Headers */,
+				B66A83FE6EF835EFA9337E1A2A1B13BC /* Sources */,
+				64C0B6746193C36F4369043095DA9911 /* Frameworks */,
+				E20FE05AD9553E433F5045D8E0876900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8A5F23F9FB61632E5B36F54AB904A10 /* PBXTargetDependency */,
+			);
+			name = VoiceRoomIMKit;
+			productName = VoiceRoomIMKit;
+			productReference = 9793295FA25783CB1F184F41638333E9 /* VoiceRoomIMKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9C8C1254E5215177A7546E5D20EBFBAB = {
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE635D0457B751EB4286908007ECE254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A09EB58FA8B110D768DBACB9890287E /* Agora_Chat_iOS */,
+				9C8C1254E5215177A7546E5D20EBFBAB /* Pods-VoiceRoomIMKit_Tests */,
+				E0BB4B21AA966E7A727C8F273106B610 /* VoiceRoomIMKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A45C545F5C7CD2A0427CCA36EA8C8792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20FE05AD9553E433F5045D8E0876900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E794B1434514CE1E9F72B5B2DF208A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600E69326CE257A73596833E0DD3E944 /* Pods-VoiceRoomIMKit_Tests-dummy.m in Sources */,
+				057DE6DA28C07D6A00A30ED5 /* VoiceRoomIMManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66A83FE6EF835EFA9337E1A2A1B13BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEC2CD7ABA993AA11285CD00AF5BAC6 /* VoiceRoomIMKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E0C992A6018AA6D1D8CD5CEBE9C25E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Agora_Chat_iOS;
+			target = 7A09EB58FA8B110D768DBACB9890287E /* Agora_Chat_iOS */;
+			targetProxy = A059AD241E590462EB871EAE23E99DEA /* PBXContainerItemProxy */;
+		};
+		8A3C8574C1AF5FF7AF4DE5C394FDED5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VoiceRoomIMKit;
+			target = E0BB4B21AA966E7A727C8F273106B610 /* VoiceRoomIMKit */;
+			targetProxy = 8814875025CE63440FCA61C4C3A906E5 /* PBXContainerItemProxy */;
+		};
+		F8A5F23F9FB61632E5B36F54AB904A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Agora_Chat_iOS;
+			target = 7A09EB58FA8B110D768DBACB9890287E /* Agora_Chat_iOS */;
+			targetProxy = A12D904E0F85AF4AF963A138AADCA7F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B18EE78F10F820BF58F21A7201CB5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D59C57FE955218BADCD707170DBCF11 /* Pods-VoiceRoomIMKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceRoomIMKit_Tests/Pods-VoiceRoomIMKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceRoomIMKit_Tests/Pods-VoiceRoomIMKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BB5C18AFF5A1FB631DBEBD04AF31E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4373A3C7C6DEFDBD056F800F53498068 /* Agora_Chat_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72C3D6C6C1AD769110E299A5D515F865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFEB16126DDAE17E2DAF8B58D654A08 /* Pods-VoiceRoomIMKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceRoomIMKit_Tests/Pods-VoiceRoomIMKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceRoomIMKit_Tests/Pods-VoiceRoomIMKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9134E23D0AF2F07DB9B2B110F8E8B1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F78FC3AAFBB202B856C4E0D73FD2557 /* VoiceRoomIMKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VoiceRoomIMKit/VoiceRoomIMKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VoiceRoomIMKit/VoiceRoomIMKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VoiceRoomIMKit/VoiceRoomIMKit.modulemap";
+				PRODUCT_MODULE_NAME = VoiceRoomIMKit;
+				PRODUCT_NAME = VoiceRoomIMKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E85E2E6484374FE4AB3BC5CDB3287BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB99978F48E5A4F4561C6D46E0783C0E /* VoiceRoomIMKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VoiceRoomIMKit/VoiceRoomIMKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VoiceRoomIMKit/VoiceRoomIMKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VoiceRoomIMKit/VoiceRoomIMKit.modulemap";
+				PRODUCT_MODULE_NAME = VoiceRoomIMKit;
+				PRODUCT_NAME = VoiceRoomIMKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F446D9B56A39D927DF5BCF72F7ADF258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA503C95CA0C00CD28D5770A6643D65 /* Agora_Chat_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E59D657B7A27C7F65C9A418D8B9EB46 /* Build configuration list for PBXAggregateTarget "Agora_Chat_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446D9B56A39D927DF5BCF72F7ADF258 /* Debug */,
+				1BB5C18AFF5A1FB631DBEBD04AF31E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE80C10750AE3605C12EA3D2EEC1AC8 /* Build configuration list for PBXNativeTarget "Pods-VoiceRoomIMKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C3D6C6C1AD769110E299A5D515F865 /* Debug */,
+				0B18EE78F10F820BF58F21A7201CB5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1F2DCA281413C929E51FE4816532C2 /* Build configuration list for PBXNativeTarget "VoiceRoomIMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9134E23D0AF2F07DB9B2B110F8E8B1BB /* Debug */,
+				E85E2E6484374FE4AB3BC5CDB3287BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
