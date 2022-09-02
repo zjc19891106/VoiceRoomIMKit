@@ -34,15 +34,17 @@ public let VoiceRoomApplySite = "chatroom_applySiteNotify"
     func roomAttributesDidRemoved(roomId: String, attributes: [String]?, from fromId: String)
 }
 
-@objcMembers public class VoiceRoomIMManager:NSObject,AgoraChatManagerDelegate,AgoraChatroomManagerDelegate {
+fileprivate let once = VoiceRoomIMManager()
+
+@objc public class VoiceRoomIMManager:NSObject,AgoraChatManagerDelegate,AgoraChatroomManagerDelegate {
     
     public var currentRoomId = ""
     
-    static var shared: VoiceRoomIMManager? = VoiceRoomIMManager()
+    @objc public static var shared: VoiceRoomIMManager? = once
     
-    public weak var delegate: VoiceRoomIMDelegate?
+    @objc public weak var delegate: VoiceRoomIMDelegate?
     
-    func configIM(appkey: String) {
+    @objc public func configIM(appkey: String) {
         let options = AgoraChatOptions(appkey: appkey.isEmpty ? "easemob-demo#easeim":appkey)
         options.enableConsoleLog = true
         options.isAutoLogin = true
@@ -53,7 +55,7 @@ public let VoiceRoomApplySite = "chatroom_applySiteNotify"
         AgoraChatClient.shared().initializeSDK(with: options)
     }
     
-    func addChatRoomListener() {
+    @objc public func addChatRoomListener() {
         AgoraChatClient.shared().chatManager?.add(self, delegateQueue: .main)
         AgoraChatClient.shared().roomManager?.add(self, delegateQueue: .main)
     }
@@ -146,12 +148,12 @@ public extension VoiceRoomIMManager {
     }
     
     //MARK: - Send
-    func sendMessage(_ roomId: String, _ text: String,_ completion: @escaping (AgoraChatMessage?,AgoraChatError?) -> (Void)) {
+    @objc func sendMessage(roomId: String,text: String,completion: @escaping (AgoraChatMessage?,AgoraChatError?) -> (Void)) {
         let message = AgoraChatMessage(conversationID: roomId, body: AgoraChatTextMessageBody(text: text), ext: nil)
         AgoraChatClient.shared().chatManager?.send(message, progress: nil, completion: completion)
     }
     
-    func joinedChatRoom(_ roomId: String,_ completion: @escaping ((AgoraChatroom?,AgoraChatError?)->())) {
+    @objc func joinedChatRoom(roomId: String,completion: @escaping ((AgoraChatroom?,AgoraChatError?)->())) {
         AgoraChatClient.shared().roomManager?.joinChatroom(roomId, completion: { room, error in
             if error == nil,let id = room?.chatroomId {
                 self.currentRoomId = id
@@ -160,7 +162,7 @@ public extension VoiceRoomIMManager {
         })
     }
     
-    func userQuitRoom(_ completion: @escaping ((AgoraChatError?)->())) {
+    @objc func userQuitRoom(completion: @escaping ((AgoraChatError?)->())) {
         AgoraChatClient.shared().roomManager?.leaveChatroom(self.currentRoomId, completion: { error in
             if error == nil {
                 AgoraChatClient.shared().roomManager?.remove(self)
